@@ -6,6 +6,7 @@
  */
 
 import React from "react"
+import {FaTwitter , FaGithub, FaLinkedin} from "react-icons/fa"
 import { useStaticQuery, graphql } from "gatsby"
 import Image from "gatsby-image"
 
@@ -56,8 +57,14 @@ const Bio = () => {
           Written by <strong>{author.name}</strong> {author?.summary || null}
           {` `}
           <br/>
-          <a href={`https://twitter.com/${social?.twitter || ``}`}>
-          Follow me on Twitter.
+          <a href={`https://twitter.com/${social?.twitter || ``}`} style={{padding:"2px 4px"}}>
+          <FaTwitter style={{fontSize:"25"}} />  
+          </a>
+          <a href={`https://github.com/PrakharV10`} style={{padding:"2px 4px", fontSize:"40"}}>
+          <FaGithub style={{fontSize:"25"}}/>
+          </a>
+          <a href={`https://www.linkedin.com/in/prakhar-varshney-6b3a92181/`} style={{padding:"4px 4px", fontSize:"40"}}>
+          <FaLinkedin style={{fontSize:"25"}}/>
           </a>
         </p>
       )}
