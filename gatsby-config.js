@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Prakhar's Blogs`,
+    title: `All Blogs`,
     author: {
       name: `Prakhar Varshney`,
-      summary: `who is a beginner Web-Developer, looking to create things from scratch.`,
+      summary: `who is a beginner Web-Developer, an Intermediate Graphics Designer and an Expert learner, looking to create new things from scratch.`,
     },
     description: `A place for me to share my knowledge with you`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
